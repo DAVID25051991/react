@@ -3,7 +3,7 @@ import './styles/App.css';
 import Boton from './Components/Boton';
 import Saludo from './Components/Saludo';
 import Menu from './Components/Menu';
-
+import footer1 from './Components/footer1';
 function App() {
   return (
     <div className="App">
@@ -15,6 +15,7 @@ function App() {
         <Boton></Boton>
 
       </header>
+      <footer1></footer1>
     </div>
   );
 }
